@@ -11,11 +11,11 @@ export default function CaseStudy2() {
   const [visibleCount, setVisibleCount] = useState(4);
   const [lmsVisibleCount, setLmsVisibleCount] = useState(3);
   const { scrollYProgress } = useScroll();
-  
+
   const galleryItems = [
     {
       id: 1,
-      src: "src/skin-ecommerce-olive.vercel.app_.png",
+      src: "/skin-ecommerce-olive.vercel.app_.png",
       alt: "Flower Shop Website",
       label: "Главная страница",
       fullWidth: true
@@ -23,30 +23,30 @@ export default function CaseStudy2() {
   ];
 
   const lmsItems = [
-    { id: 1, src: "src/скин слайд 1.png", alt: "LMS 1", label: "Личный кабинет", fullWidth: true },
-    { id: 2, src: "src/скин слайд 2.png", alt: "LMS 2", label: "Прохождение уроков", fullWidth: true },
-    { id: 3, src: "src/скин слайд 3.png", alt: "LMS 3", label: "Профиль и геймификация", fullWidth: true },
-    { id: 4, src: "src/скин слайд 4.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
-    { id: 5, src: "src/скин слайд 5.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
-    { id: 6, src: "src/скин слайд 6.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 7, src: "src/скин слайд 7.png", alt: "LMS 1", label: "Личный кабинет", fullWidth: true },
-    { id: 8, src: "src/скин слайд 8.png", alt: "LMS 2", label: "Прохождение уроков", fullWidth: true },
-    { id: 9, src: "src/скин слайд 9.png", alt: "LMS 3", label: "Профиль и геймификация", fullWidth: true },
-    { id: 10, src: "src/скин слайд 10.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
-    { id: 11, src: "src/скин слайд 11.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
-    { id: 12, src: "src/скин слайд 12.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 13, src: "src/скин слайд 13.png", alt: "LMS 3", label: "Профиль и геймификация", fullWidth: true },
-    { id: 14, src: "src/скин слайд 14.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
-    { id: 15, src: "src/скин слайд 15.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
-    { id: 16, src: "src/скин слайд 16.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 17, src: "src/скин слайд 17.png", alt: "LMS 7", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 18, src: "src/скин слайд 18.png", alt: "LMS 8", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 19, src: "src/скин слайд 19.png", alt: "LMS 9", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 20, src: "src/скин слайд 20.png", alt: "LMS 10", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 21, src: "src/скин слайд 21.png", alt: "LMS 11", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 22, src: "src/скин слайд 22.png", alt: "LMS 12", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 23, src: "src/скин слайд 23.png", alt: "LMS 13", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 24, src: "src/скин слайд 24.png", alt: "LMS 14", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 1, src: "/скин слайд 1.png", alt: "LMS 1", label: "Личный кабинет", fullWidth: true },
+    { id: 2, src: "/скин слайд 2.png", alt: "LMS 2", label: "Прохождение уроков", fullWidth: true },
+    { id: 3, src: "/скин слайд 3.png", alt: "LMS 3", label: "Профиль и геймификация", fullWidth: true },
+    { id: 4, src: "/скин слайд 4.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
+    { id: 5, src: "/скин слайд 5.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
+    { id: 6, src: "/скин слайд 6.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 7, src: "/скин слайд 7.png", alt: "LMS 1", label: "Личный кабинет", fullWidth: true },
+    { id: 8, src: "/скин слайд 8.png", alt: "LMS 2", label: "Прохождение уроков", fullWidth: true },
+    { id: 9, src: "/скин слайд 9.png", alt: "LMS 3", label: "Профиль и геймификация", fullWidth: true },
+    { id: 10, src: "/скин слайд 10.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
+    { id: 11, src: "/скин слайд 11.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
+    { id: 12, src: "/скин слайд 12.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 13, src: "/скин слайд 13.png", alt: "LMS 3", label: "Профиль и геймификация", fullWidth: true },
+    { id: 14, src: "/скин слайд 14.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
+    { id: 15, src: "/скин слайд 15.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
+    { id: 16, src: "/скин слайд 16.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 17, src: "/скин слайд 17.png", alt: "LMS 7", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 18, src: "/скин слайд 18.png", alt: "LMS 8", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 19, src: "/скин слайд 19.png", alt: "LMS 9", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 20, src: "/скин слайд 20.png", alt: "LMS 10", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 21, src: "/скин слайд 21.png", alt: "LMS 11", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 22, src: "/скин слайд 22.png", alt: "LMS 12", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 23, src: "/скин слайд 23.png", alt: "LMS 13", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 24, src: "/скин слайд 24.png", alt: "LMS 14", label: "Пользовательские сценарии", fullWidth: true },
   ];
 
   const showMore = () => {
@@ -69,7 +69,7 @@ export default function CaseStudy2() {
         className="fixed top-0 left-0 right-0 h-1 bg-black origin-left z-50"
         style={{ scaleX }}
       />
-      
+
       <Navbar />
 
       <main className="pt-24 md:pt-32 pb-20 px-6 md:px-12 max-w-7xl mx-auto">
@@ -92,7 +92,7 @@ export default function CaseStudy2() {
               <span className="text-neutral-400">Сайт и Айдентика</span>
             </h1>
           </Reveal>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 border-t border-neutral-200 pt-8">
             <Reveal delay={0.1}>
               <div>
@@ -138,7 +138,7 @@ export default function CaseStudy2() {
           <Reveal>
             <h2 className="text-2xl md:text-3xl font-display font-medium mb-8 md:mb-12">Решение: Проанализировать аудиторию и создать новое позиционирование</h2>
           </Reveal>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
             <Reveal delay={0.1} className="w-full">
               <div className="bg-neutral-50 p-6 md:p-8 rounded-2xl md:rounded-3xl border border-neutral-100 h-full">
@@ -162,7 +162,7 @@ export default function CaseStudy2() {
                 </div>
               </div>
             </Reveal>
-            
+
             <Reveal delay={0.2} className="w-full">
               <div className="bg-black text-white p-6 md:p-8 rounded-2xl md:rounded-3xl border border-neutral-800 h-full">
                 <div className="flex items-start gap-4 mb-4 md:mb-6">
@@ -193,15 +193,15 @@ export default function CaseStudy2() {
           <Reveal>
             <h2 className="text-2xl md:text-3xl font-display font-medium mb-8 md:mb-12">Интерфейс сайта</h2>
           </Reveal>
-          
+
           <div className="flex flex-col gap-6 md:gap-8">
             {galleryItems.slice(0, visibleCount).map((item) => (
               <div key={item.id} className="w-full">
                 <Reveal delay={0.1} className="w-full">
                   <div className="w-full bg-neutral-100 rounded-2xl md:rounded-3xl overflow-hidden relative group">
-                    <img 
-                      src={item.src} 
-                      alt={item.alt} 
+                    <img
+                      src={item.src}
+                      alt={item.alt}
                       className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
                       referrerPolicy="no-referrer"
                     />
@@ -216,9 +216,9 @@ export default function CaseStudy2() {
 
           {visibleCount < galleryItems.length && (
             <div className="mt-12 flex justify-center">
-              <MagneticButton 
+              <MagneticButton
                 onClick={showMore}
-                variant="outline" 
+                variant="outline"
                 className="group flex items-center gap-2 px-8 py-4 border-neutral-200 hover:border-black transition-colors"
               >
                 Показать еще <Plus size={18} className="transition-transform group-hover:rotate-90" />
@@ -232,15 +232,15 @@ export default function CaseStudy2() {
           <Reveal>
             <h2 className="text-2xl md:text-3xl font-display font-medium mb-8 md:mb-12">Фирменный стиль</h2>
           </Reveal>
-          
+
           <div className="flex flex-col gap-6 md:gap-8">
             {lmsItems.slice(0, lmsVisibleCount).map((item) => (
               <div key={item.id} className="w-full">
                 <Reveal delay={0.1} className="w-full">
                   <div className="w-full bg-neutral-100 rounded-2xl md:rounded-3xl overflow-hidden relative group">
-                    <img 
-                      src={item.src} 
-                      alt={item.alt} 
+                    <img
+                      src={item.src}
+                      alt={item.alt}
                       className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
                       referrerPolicy="no-referrer"
                     />
@@ -255,9 +255,9 @@ export default function CaseStudy2() {
 
           {lmsVisibleCount < lmsItems.length && (
             <div className="mt-12 flex justify-center">
-              <MagneticButton 
+              <MagneticButton
                 onClick={showMoreLms}
-                variant="outline" 
+                variant="outline"
                 className="group flex items-center gap-2 px-8 py-4 border-neutral-200 hover:border-black transition-colors"
               >
                 Показать еще <Plus size={18} className="transition-transform group-hover:rotate-90" />
@@ -282,7 +282,7 @@ export default function CaseStudy2() {
                   Записаться на созвон <ArrowUpRight className="ml-2 w-4 h-4" />
                 </MagneticButton>
               </div>
-              
+
               {/* Abstract Background Element */}
               <div className="absolute top-0 right-0 w-full h-full opacity-20 pointer-events-none">
                 <div className="absolute top-1/2 right-[-10%] w-[400px] md:w-[600px] h-[400px] md:h-[600px] bg-purple-900 rounded-full blur-[80px] md:blur-[120px]" />

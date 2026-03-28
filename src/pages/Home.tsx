@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <div className="bg-white min-h-screen font-sans selection:bg-black selection:text-white">
       <Navbar />
-      
+
       <main className="px-6 md:px-12 max-w-7xl mx-auto pt-24 md:pt-32 pb-20">
-        
+
         {/* Hero Section */}
         <section className="min-h-[70vh] md:min-h-[80vh] flex flex-col justify-between mb-20 md:mb-32">
           <Reveal>
@@ -21,7 +21,7 @@ export default function Home() {
               Сайты & Фирменный стиль
             </div>
           </Reveal>
-          
+
           <div className="flex flex-col gap-6 md:gap-8">
             <Reveal delay={0.1}>
               <h1 className="text-6xl sm:text-7xl md:text-[12vw] leading-[0.9] md:leading-[0.8] font-display font-bold tracking-tighter uppercase">
@@ -29,15 +29,15 @@ export default function Home() {
                 <span className="text-neutral-300">Ринадова</span>
               </h1>
             </Reveal>
-            
+
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-8 md:gap-12">
               <Reveal delay={0.2} className="max-w-xl">
                 <p className="text-lg md:text-2xl leading-relaxed font-light text-neutral-600">
-                  Сайты и айдентика — с вниманием к каждой детали вашего бизнеса.  
+                  Сайты и айдентика — с вниманием к каждой детали вашего бизнеса.
                   Работаю на стыке анализа и эстетики, чтобы результат был не просто красивым, а точным.
                 </p>
               </Reveal>
-              
+
               <Reveal delay={0.3} className="w-full md:w-auto">
                 <MagneticButton className="w-full md:w-auto bg-black text-white px-8 py-6 rounded-full text-lg group">
                   Обсудить проект
@@ -53,42 +53,42 @@ export default function Home() {
           <Reveal>
             <h2 className="text-2xl md:text-3xl font-display font-medium mb-8 md:mb-12">Моя специализация</h2>
           </Reveal>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
             <Reveal delay={0.1} className="h-full">
-              <BentoCard 
-                title="Сайт под ключ" 
+              <BentoCard
+                title="Сайт под ключ"
                 subtitle="01"
                 className="h-[320px] md:h-[400px]"
               >
-              
+
                 <p className="text-sm md:text-base text-neutral-500 mt-4 max-w-[80%]">
                   Проектирую и верстаю сама, без потерь на передачу.
                 </p>
               </BentoCard>
             </Reveal>
-            
+
             <Reveal delay={0.2} className="h-full">
-              <BentoCard 
-                title="ИИ в работе" 
-                subtitle="02" 
+              <BentoCard
+                title="ИИ в работе"
+                subtitle="02"
                 dark
                 className="h-[320px] md:h-[400px]"
               >
-                
+
                 <p className="text-sm md:text-base text-neutral-400 mt-4 max-w-[80%]">
                   Ускоряю процесс там, где это уместно.
                 </p>
               </BentoCard>
             </Reveal>
-            
+
             <Reveal delay={0.3} className="h-full">
-              <BentoCard 
-                title="Анализ до дизайна" 
+              <BentoCard
+                title="Анализ до дизайна"
                 subtitle="03"
                 className="h-[320px] md:h-[400px]"
               >
-               
+
                 <p className="text-sm md:text-base text-neutral-500 mt-4 max-w-[80%]">
                   Изучаю ваш рынок, прежде чем приступить к дизайну.
                 </p>
@@ -102,23 +102,23 @@ export default function Home() {
           <Reveal>
             <h2 className="text-2xl md:text-3xl font-display font-medium mb-8 md:mb-12">Кейсы</h2>
           </Reveal>
-          
+
           <div className="grid grid-cols-1 gap-16 md:gap-24">
             <Reveal delay={0.1} className="w-full">
               <Link to="/case-study" className="group block">
                 <div className="relative aspect-[4/3] md:aspect-[16/9] bg-neutral-100 rounded-2xl md:rounded-3xl overflow-hidden mb-6">
-                  <img 
-                    src="src/slide 26.png" 
-                    alt="Business Orbit" 
+                  <img
+                    src="/slide 26.png"
+                    alt="Business Orbit"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-500" />
-                  
+
                   <div className="absolute bottom-6 right-6 md:bottom-8 md:right-8 bg-white px-6 py-3 rounded-full flex items-center gap-2 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
                     Смотреть кейс <ArrowUpRight size={16} />
                   </div>
                 </div>
-                
+
                 <div className="flex flex-col md:flex-row justify-between items-start gap-2">
                   <div>
                     <h3 className="text-2xl md:text-3xl font-display font-medium mb-1 group-hover:underline decoration-1 underline-offset-4">Бизнес-Орбита</h3>
@@ -130,23 +130,23 @@ export default function Home() {
                 </div>
               </Link>
             </Reveal>
-            
+
             {/* Second project */}
             <Reveal delay={0.2} className="w-full">
               <Link to="/case-study-2" className="group block">
                 <div className="relative aspect-[4/3] md:aspect-[16/9] bg-neutral-100 rounded-2xl md:rounded-3xl overflow-hidden mb-6">
-                  <img 
-                    src="src/скин слайд 21.png" 
-                    alt="skin" 
+                  <img
+                    src="/скин слайд 21.png"
+                    alt="skin"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-500" />
-                  
+
                   <div className="absolute bottom-6 right-6 md:bottom-8 md:right-8 bg-white px-6 py-3 rounded-full flex items-center gap-2 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
                     Смотреть кейс <ArrowUpRight size={16} />
                   </div>
                 </div>
-                
+
                 <div className="flex flex-col md:flex-row justify-between items-start gap-2">
                   <div>
                     <h3 className="text-2xl md:text-3xl font-display font-medium mb-1 group-hover:underline decoration-1 underline-offset-4">skin</h3>
@@ -166,9 +166,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <Reveal>
               <div className="aspect-[3/4] bg-neutral-100 rounded-3xl overflow-hidden">
-                <img 
-                  src="src/photo_2026-03-27_18-15-57.jpg" 
-                  alt="Эля Ринадова" 
+                <img
+                  src="/photo_2026-03-27_18-15-57.jpg"
+                  alt="Эля Ринадова"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />
               </div>
@@ -179,17 +179,17 @@ export default function Home() {
               </Reveal>
               <Reveal delay={0.2}>
                 <p className="text-lg text-neutral-600 leading-relaxed">
-                  К каждому проекту я отношусь как к маленькой жизни: 
+                  К каждому проекту я отношусь как к маленькой жизни:
                   её можно улучшить, добавить яркости и света — нужно только увидеть, что в ней уже есть.
                 </p>
               </Reveal>
               <Reveal delay={0.3}>
                 <p className="text-lg text-neutral-600 leading-relaxed">
-                  В отличие от тех, кто делает ради галочки или просто чтобы работало, 
-                  я соединяю два начала: собственное видение и глубокий анализ. 
-                  Это не случайное сочетание — это единственный способ делать по-настоящему живой дизайн. 
-                  Ведь в любом бизнесе, как и в жизни, никогда нет чёткого плана. 
-                  Всегда есть разветвления — они рождаются из чувств и эмоций, но направляются разумом. 
+                  В отличие от тех, кто делает ради галочки или просто чтобы работало,
+                  я соединяю два начала: собственное видение и глубокий анализ.
+                  Это не случайное сочетание — это единственный способ делать по-настоящему живой дизайн.
+                  Ведь в любом бизнесе, как и в жизни, никогда нет чёткого плана.
+                  Всегда есть разветвления — они рождаются из чувств и эмоций, но направляются разумом.
                   Именно этот баланс я удерживаю в каждой работе.
                 </p>
               </Reveal>
@@ -313,7 +313,7 @@ export default function Home() {
         </section>
 
       </main>
-      
+
       <Footer />
     </div>
   );

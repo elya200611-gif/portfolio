@@ -11,11 +11,11 @@ export default function CaseStudy() {
   const [visibleCount, setVisibleCount] = useState(4);
   const [lmsVisibleCount, setLmsVisibleCount] = useState(3);
   const { scrollYProgress } = useScroll();
-  
+
   const galleryItems = [
     {
       id: 1,
-      src: "src/business-orbit-c49b6f.webflow.io_.png",
+      src: "/business-orbit-c49b6f.webflow.io_.png",
       alt: "Student Dashboard",
       label: "Сайт",
       fullWidth: true
@@ -23,23 +23,23 @@ export default function CaseStudy() {
   ];
 
   const lmsItems = [
-    { id: 1, src: "src/slide identity 1.png", alt: "LMS 1", label: "Личный кабинет", fullWidth: true },
-    { id: 2, src: "src/slide 2.png", alt: "LMS 2", label: "Прохождение уроков", fullWidth: true },
-    { id: 3, src: "src/slide 3.png", alt: "LMS 3", label: "Профиль и геймификация", fullWidth: true },
-    { id: 4, src: "src/slide 4.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
-    { id: 5, src: "src/slide 5.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
-    { id: 6, src: "src/slide 6.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 7, src: "src/slide 7.png", alt: "LMS 1", label: "Личный кабинет", fullWidth: true },
-    { id: 8, src: "src/slide 8.png", alt: "LMS 2", label: "Прохождение уроков", fullWidth: true },
-    { id: 9, src: "src/slide 9.png", alt: "LMS 3", label: "Профиль и геймификация", fullWidth: true },
-    { id: 10, src: "src/slide 10.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
-    { id: 11, src: "src/slide 11.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
-    { id: 12, src: "src/slide 12.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 13, src: "src/slide 13.png", alt: "LMS 3", label: "Профиль и геймификация", fullWidth: true },
-    { id: 14, src: "src/slide 14.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
-    { id: 15, src: "src/slide 15.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
-    { id: 16, src: "src/slide 16.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    
+    { id: 1, src: "/slide identity 1.png", alt: "LMS 1", label: "Личный кабинет", fullWidth: true },
+    { id: 2, src: "/slide 2.png", alt: "LMS 2", label: "Прохождение уроков", fullWidth: true },
+    { id: 3, src: "/slide 3.png", alt: "LMS 3", label: "Профиль и геймификация", fullWidth: true },
+    { id: 4, src: "/slide 4.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
+    { id: 5, src: "/slide 5.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
+    { id: 6, src: "/slide 6.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 7, src: "/slide 7.png", alt: "LMS 1", label: "Личный кабинет", fullWidth: true },
+    { id: 8, src: "/slide 8.png", alt: "LMS 2", label: "Прохождение уроков", fullWidth: true },
+    { id: 9, src: "/slide 9.png", alt: "LMS 3", label: "Профиль и геймификация", fullWidth: true },
+    { id: 10, src: "/slide 10.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
+    { id: 11, src: "/slide 11.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
+    { id: 12, src: "/slide 12.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 13, src: "/slide 13.png", alt: "LMS 3", label: "Профиль и геймификация", fullWidth: true },
+    { id: 14, src: "/slide 14.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
+    { id: 15, src: "/slide 15.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
+    { id: 16, src: "/slide 16.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
+
   ];
 
   const showMore = () => {
@@ -62,7 +62,7 @@ export default function CaseStudy() {
         className="fixed top-0 left-0 right-0 h-1 bg-black origin-left z-50"
         style={{ scaleX }}
       />
-      
+
       <Navbar />
 
       <main className="pt-24 md:pt-32 pb-20 px-6 md:px-12 max-w-7xl mx-auto">
@@ -85,7 +85,7 @@ export default function CaseStudy() {
               <span className="text-neutral-400">Сайт и Айдентика</span>
             </h1>
           </Reveal>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 border-t border-neutral-200 pt-8">
             <Reveal delay={0.1}>
               <div>
@@ -119,7 +119,7 @@ export default function CaseStudy() {
           <div className="md:col-span-8">
             <Reveal delay={0.1}>
               <p className="text-lg md:text-xl text-neutral-600 leading-relaxed">
-                Клиент терял заявки на старом сайте. 
+                Клиент терял заявки на старом сайте.
                 Нет своей идентичности, легко теряется среди конкурентов, нет понимания какую аудиторию привлекать.
               </p>
             </Reveal>
@@ -131,7 +131,7 @@ export default function CaseStudy() {
           <Reveal>
             <h2 className="text-2xl md:text-3xl font-display font-medium mb-8 md:mb-12">Решение: Единая экосистема</h2>
           </Reveal>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
             <Reveal delay={0.1} className="w-full">
               <div className="bg-neutral-50 p-6 md:p-8 rounded-2xl md:rounded-3xl border border-neutral-100 h-full">
@@ -155,7 +155,7 @@ export default function CaseStudy() {
                 </div>
               </div>
             </Reveal>
-            
+
             <Reveal delay={0.2} className="w-full">
               <div className="bg-black text-white p-6 md:p-8 rounded-2xl md:rounded-3xl border border-neutral-800 h-full">
                 <div className="flex items-start gap-4 mb-4 md:mb-6">
@@ -186,15 +186,15 @@ export default function CaseStudy() {
           <Reveal>
             <h2 className="text-2xl md:text-3xl font-display font-medium mb-8 md:mb-12">Интерфейс сайта</h2>
           </Reveal>
-          
+
           <div className="flex flex-col gap-6 md:gap-8">
             {galleryItems.slice(0, visibleCount).map((item) => (
               <div key={item.id} className="w-full">
                 <Reveal delay={0.1} className="w-full">
                   <div className="w-full bg-neutral-100 rounded-2xl md:rounded-3xl overflow-hidden relative group">
-                    <img 
-                      src={item.src} 
-                      alt={item.alt} 
+                    <img
+                      src={item.src}
+                      alt={item.alt}
                       className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
                       referrerPolicy="no-referrer"
                     />
@@ -209,9 +209,9 @@ export default function CaseStudy() {
 
           {visibleCount < galleryItems.length && (
             <div className="mt-12 flex justify-center">
-              <MagneticButton 
+              <MagneticButton
                 onClick={showMore}
-                variant="outline" 
+                variant="outline"
                 className="group flex items-center gap-2 px-8 py-4 border-neutral-200 hover:border-black transition-colors"
               >
                 Показать еще <Plus size={18} className="transition-transform group-hover:rotate-90" />
@@ -225,15 +225,15 @@ export default function CaseStudy() {
           <Reveal>
             <h2 className="text-2xl md:text-3xl font-display font-medium mb-8 md:mb-12">Фирменный стиль</h2>
           </Reveal>
-          
+
           <div className="flex flex-col gap-6 md:gap-8">
             {lmsItems.slice(0, lmsVisibleCount).map((item) => (
               <div key={item.id} className="w-full">
                 <Reveal delay={0.1} className="w-full">
                   <div className="w-full bg-neutral-100 rounded-2xl md:rounded-3xl overflow-hidden relative group">
-                    <img 
-                      src={item.src} 
-                      alt={item.alt} 
+                    <img
+                      src={item.src}
+                      alt={item.alt}
                       className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
                       referrerPolicy="no-referrer"
                     />
@@ -248,9 +248,9 @@ export default function CaseStudy() {
 
           {lmsVisibleCount < lmsItems.length && (
             <div className="mt-12 flex justify-center">
-              <MagneticButton 
+              <MagneticButton
                 onClick={showMoreLms}
-                variant="outline" 
+                variant="outline"
                 className="group flex items-center gap-2 px-8 py-4 border-neutral-200 hover:border-black transition-colors"
               >
                 Показать еще <Plus size={18} className="transition-transform group-hover:rotate-90" />
@@ -275,7 +275,7 @@ export default function CaseStudy() {
                   Записаться на созвон <ArrowUpRight className="ml-2 w-4 h-4" />
                 </MagneticButton>
               </div>
-              
+
               {/* Abstract Background Element */}
               <div className="absolute top-0 right-0 w-full h-full opacity-20 pointer-events-none">
                 <div className="absolute top-1/2 right-[-10%] w-[400px] md:w-[600px] h-[400px] md:h-[600px] bg-purple-900 rounded-full blur-[80px] md:blur-[120px]" />
