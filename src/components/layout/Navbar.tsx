@@ -32,7 +32,7 @@ export function Navbar() {
 
         <div className="flex items-center gap-4 pointer-events-auto">
           <div className="hidden md:block">
-            <MagneticButton href="https://t.me/webdesignelya" target="_blank" variant="outline" className="px-6 py-2 text-xs border-white/20 text-white hover:bg-white hover:text-black">
+            <MagneticButton href="https://t.me/ellrinad" target="_blank" variant="outline" className="px-6 py-2 text-xs border-white/20 text-white hover:bg-white hover:text-black">
               Обсудить проект
             </MagneticButton>
           </div>
@@ -73,7 +73,7 @@ export function Navbar() {
 
             <div className="mt-8 w-full">
               <MagneticButton
-                href="https://t.me/webdesignelya"
+                href="https://t.me/ellrinad"
                 target="_blank"
                 className="w-full bg-white text-black py-4 rounded-full text-lg font-medium"
                 onClick={() => setIsOpen(false)}

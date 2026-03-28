@@ -271,7 +271,7 @@ export default function CaseStudy() {
                 <p className="text-lg md:text-xl text-neutral-300 leading-relaxed mb-10 md:mb-12">
                   Разберу ваш бизнес и покажу, какой дизайн даст результат — на бесплатном созвоне.
                 </p>
-                <MagneticButton href="https://t.me/webdesignelya" target="_blank" variant="secondary" className="w-full md:w-auto bg-white text-black hover:bg-neutral-200">
+                <MagneticButton href="https://t.me/ellrinad" target="_blank" variant="secondary" className="w-full md:w-auto bg-white text-black hover:bg-neutral-200">
                   Записаться на созвон <ArrowUpRight className="ml-2 w-4 h-4" />
                 </MagneticButton>
               </div>

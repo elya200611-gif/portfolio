@@ -39,7 +39,7 @@ export default function Home() {
               </Reveal>
 
               <Reveal delay={0.3} className="w-full md:w-auto">
-                <MagneticButton className="w-full md:w-auto bg-black text-white px-8 py-6 rounded-full text-lg group">
+                <MagneticButton href="https://t.me/ellrinad" target="_blank" className="w-full md:w-auto bg-black text-white px-8 py-6 rounded-full text-lg group">
                   Обсудить проект
                   <ArrowDown className="ml-2 w-5 h-5 transition-transform group-hover:translate-y-1" />
                 </MagneticButton>
