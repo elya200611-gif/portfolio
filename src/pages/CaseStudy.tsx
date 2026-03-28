@@ -23,22 +23,22 @@ export default function CaseStudy() {
   ];
 
   const lmsItems = [
-    { id: 1, src: "/slide identity 1.png", alt: "LMS 1", label: "Личный кабинет", fullWidth: true },
-    { id: 2, src: "/slide 2.png", alt: "LMS 2", label: "Прохождение уроков", fullWidth: true },
-    { id: 3, src: "/slide 3.png", alt: "LMS 3", label: "Профиль и геймификация", fullWidth: true },
-    { id: 4, src: "/slide 4.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
-    { id: 5, src: "/slide 5.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
-    { id: 6, src: "/slide 6.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 7, src: "/slide 7.png", alt: "LMS 1", label: "Личный кабинет", fullWidth: true },
-    { id: 8, src: "/slide 8.png", alt: "LMS 2", label: "Прохождение уроков", fullWidth: true },
-    { id: 9, src: "/slide 9.png", alt: "LMS 3", label: "Профиль и геймификация", fullWidth: true },
-    { id: 10, src: "/slide 10.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
-    { id: 11, src: "/slide 11.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
-    { id: 12, src: "/slide 12.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 13, src: "/slide 13.png", alt: "LMS 3", label: "Профиль и геймификация", fullWidth: true },
-    { id: 14, src: "/slide 14.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
-    { id: 15, src: "/slide 15.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
-    { id: 16, src: "/slide 16.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 1, src: "/slide identity 1.png", alt: "LMS 1", fullWidth: true },
+    { id: 2, src: "/slide 2.png", alt: "LMS 2", fullWidth: true },
+    { id: 3, src: "/slide 3.png", alt: "LMS 3", fullWidth: true },
+    { id: 4, src: "/slide 4.png", alt: "LMS 4", fullWidth: true },
+    { id: 5, src: "/slide 5.png", alt: "LMS 5", fullWidth: true },
+    { id: 6, src: "/slide 6.png", alt: "LMS 6", fullWidth: true },
+    { id: 7, src: "/slide 7.png", alt: "LMS 1", fullWidth: true },
+    { id: 8, src: "/slide 8.png", alt: "LMS 2", fullWidth: true },
+    { id: 9, src: "/slide 9.png", alt: "LMS 3", fullWidth: true },
+    { id: 10, src: "/slide 10.png", alt: "LMS 4", fullWidth: true },
+    { id: 11, src: "/slide 11.png", alt: "LMS 5", fullWidth: true },
+    { id: 12, src: "/slide 12.png", alt: "LMS 6", fullWidth: true },
+    { id: 13, src: "/slide 13.png", alt: "LMS 3", fullWidth: true },
+    { id: 14, src: "/slide 14.png", alt: "LMS 4", fullWidth: true },
+    { id: 15, src: "/slide 15.png", alt: "LMS 5", fullWidth: true },
+    { id: 16, src: "/slide 16.png", alt: "LMS 6", fullWidth: true },
 
   ];
 
@@ -238,7 +238,7 @@ export default function CaseStudy() {
                       referrerPolicy="no-referrer"
                     />
                     <div className="absolute bottom-4 left-4 md:bottom-8 md:left-8 bg-white/90 backdrop-blur-md px-4 py-2 rounded-full text-xs md:text-sm font-medium">
-                      {item.label}
+
                     </div>
                   </div>
                 </Reveal>
@@ -271,7 +271,7 @@ export default function CaseStudy() {
                 <p className="text-lg md:text-xl text-neutral-300 leading-relaxed mb-10 md:mb-12">
                   Разберу ваш бизнес и покажу, какой дизайн даст результат — на бесплатном созвоне.
                 </p>
-                <MagneticButton variant="secondary" className="w-full md:w-auto bg-white text-black hover:bg-neutral-200">
+                <MagneticButton href="https://t.me/webdesignelya" target="_blank" variant="secondary" className="w-full md:w-auto bg-white text-black hover:bg-neutral-200">
                   Записаться на созвон <ArrowUpRight className="ml-2 w-4 h-4" />
                 </MagneticButton>
               </div>

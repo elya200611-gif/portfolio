@@ -20,7 +20,7 @@ export function Navbar() {
         <Link to="/" className="text-xl md:text-2xl font-display font-bold tracking-tighter pointer-events-auto">
           ER.
         </Link>
-        
+
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-8 pointer-events-auto">
           {navLinks.map((link) => (
@@ -32,13 +32,13 @@ export function Navbar() {
 
         <div className="flex items-center gap-4 pointer-events-auto">
           <div className="hidden md:block">
-            <MagneticButton variant="outline" className="px-6 py-2 text-xs border-white/20 text-white hover:bg-white hover:text-black">
+            <MagneticButton href="https://t.me/webdesignelya" target="_blank" variant="outline" className="px-6 py-2 text-xs border-white/20 text-white hover:bg-white hover:text-black">
               Обсудить проект
             </MagneticButton>
           </div>
-          
+
           {/* Mobile Menu Toggle */}
-          <button 
+          <button
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden p-2 text-white hover:opacity-70 transition-opacity"
             aria-label="Toggle menu"
@@ -60,9 +60,9 @@ export function Navbar() {
           >
             <div className="flex flex-col items-center gap-6">
               {navLinks.map((link) => (
-                <a 
-                  key={link.href} 
-                  href={link.href} 
+                <a
+                  key={link.href}
+                  href={link.href}
                   onClick={() => setIsOpen(false)}
                   className="text-3xl font-display font-medium tracking-tight hover:text-neutral-400 transition-colors"
                 >
@@ -70,9 +70,11 @@ export function Navbar() {
                 </a>
               ))}
             </div>
-            
+
             <div className="mt-8 w-full">
-              <MagneticButton 
+              <MagneticButton
+                href="https://t.me/webdesignelya"
+                target="_blank"
                 className="w-full bg-white text-black py-4 rounded-full text-lg font-medium"
                 onClick={() => setIsOpen(false)}
               >
