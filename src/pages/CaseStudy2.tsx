@@ -39,14 +39,14 @@ export default function CaseStudy2() {
     { id: 14, src: "src/скин слайд 14.png", alt: "LMS 4", label: "Айдентика и стиль", fullWidth: true },
     { id: 15, src: "src/скин слайд 15.png", alt: "LMS 5", label: "Мобильная адаптация", fullWidth: true },
     { id: 16, src: "src/скин слайд 16.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 16, src: "src/скин слайд 17.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 16, src: "src/скин слайд 18.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 16, src: "src/скин слайд 19.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 16, src: "src/скин слайд 20.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 16, src: "src/скин слайд 21.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 16, src: "src/скин слайд 22.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 16, src: "src/скин слайд 23.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
-    { id: 16, src: "src/скин слайд 24.png", alt: "LMS 6", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 17, src: "src/скин слайд 17.png", alt: "LMS 7", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 18, src: "src/скин слайд 18.png", alt: "LMS 8", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 19, src: "src/скин слайд 19.png", alt: "LMS 9", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 20, src: "src/скин слайд 20.png", alt: "LMS 10", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 21, src: "src/скин слайд 21.png", alt: "LMS 11", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 22, src: "src/скин слайд 22.png", alt: "LMS 12", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 23, src: "src/скин слайд 23.png", alt: "LMS 13", label: "Пользовательские сценарии", fullWidth: true },
+    { id: 24, src: "src/скин слайд 24.png", alt: "LMS 14", label: "Пользовательские сценарии", fullWidth: true },
   ];
 
   const showMore = () => {
@@ -293,7 +293,7 @@ export default function CaseStudy2() {
 
         {/* Next Project */}
         <section className="border-t border-neutral-200 pt-12 flex justify-end">
-          <Link to="/" className="group flex items-center gap-4 text-xl font-medium hover:opacity-50 transition-opacity">
+          <Link to="/case-study" className="group flex items-center gap-4 text-xl font-medium hover:opacity-50 transition-opacity">
             Следующий кейс <ArrowUpRight className="transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
           </Link>
         </section>

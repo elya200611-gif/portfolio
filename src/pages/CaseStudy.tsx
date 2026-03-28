@@ -168,7 +168,7 @@ export default function CaseStudy() {
                   <div className="p-2 bg-white/20 rounded-full text-white shrink-0">
                     <Check size={18} />
                   </div>
-                  <p className="text-base md:text-lg">Сайт продаёт курс ещё до прочтения текстаD</p>
+                  <p className="text-base md:text-lg">Сайт продаёт курс ещё до прочтения текста</p>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="p-2 bg-white/20 rounded-full text-white shrink-0">
@@ -223,7 +223,7 @@ export default function CaseStudy() {
         {/* LMS Gallery */}
         <section className="mb-20 md:mb-32">
           <Reveal>
-            <h2 className="text-2xl md:text-3xl font-display font-medium mb-8 md:mb-12">Фирменнный стиль</h2>
+            <h2 className="text-2xl md:text-3xl font-display font-medium mb-8 md:mb-12">Фирменный стиль</h2>
           </Reveal>
           
           <div className="flex flex-col gap-6 md:gap-8">
@@ -286,7 +286,7 @@ export default function CaseStudy() {
 
         {/* Next Project */}
         <section className="border-t border-neutral-200 pt-12 flex justify-end">
-          <Link to="/" className="group flex items-center gap-4 text-xl font-medium hover:opacity-50 transition-opacity">
+          <Link to="/case-study-2" className="group flex items-center gap-4 text-xl font-medium hover:opacity-50 transition-opacity">
             Следующий кейс <ArrowUpRight className="transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
           </Link>
         </section>
