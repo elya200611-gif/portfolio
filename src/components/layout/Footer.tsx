@@ -12,7 +12,7 @@ export function Footer() {
               Раскрой свой <br />
               <span className="text-neutral-500">бизнес.</span>
             </h2>
-            <p className="text-neutral-600 mb-6">Запишись на бесплатный разбор</p>
+            <p className="text-neutral-600 mb-6 mt-10">Запишись на бесплатный разбор</p>
           </Reveal>
           <Reveal delay={0.2} className="w-full md:w-auto">
             <MagneticButton href="https://t.me/ellrinad" target="_blank" className="w-full md:w-auto group bg-white text-black px-10 py-6 text-lg">
