@@ -285,21 +285,21 @@ export default function Home() {
               <div className="border-t border-neutral-200 pt-8">
                 <h3 className="text-xl font-medium mb-4">Одностраничный сайт</h3>
                 <p className="text-neutral-600 mb-6">Полный цикл разработки: от прототипа и дизайна до верстки на Webflow. Идеально для экспертов и малого бизнеса.</p>
-                <p className="text-2xl font-display font-bold">от 40 000 ₽</p>
+
               </div>
             </Reveal>
             <Reveal delay={0.2}>
               <div className="border-t border-neutral-200 pt-8">
                 <h3 className="text-xl font-medium mb-4">Айдентика / Фирменный стиль</h3>
                 <p className="text-neutral-600 mb-6">Разработка логотипа, подбор шрифтов и цветов, создание гайдлайна. Формируем узнаваемый и дорогой образ бренда.</p>
-                <p className="text-2xl font-display font-bold">от 30 000 ₽</p>
+
               </div>
             </Reveal>
             <Reveal delay={0.3}>
               <div className="border-t border-neutral-200 pt-8">
                 <h3 className="text-xl font-medium mb-4">Дизайн-сопровождение</h3>
                 <p className="text-neutral-600 mb-6">Регулярная работа над вашим проектом: соц сети, баннеры, презентации, обновление сайта. Ваш личный дизайнер на аутсорсе.</p>
-                <p className="text-2xl font-display font-bold">от 20 000 ₽ / мес</p>
+
               </div>
             </Reveal>
             <Reveal delay={0.4}>
