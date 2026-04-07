@@ -306,7 +306,7 @@ export default function Home() {
               <div className="border-t border-neutral-200 pt-8">
                 <h3 className="text-xl font-medium mb-4">Консультация</h3>
                 <p className="text-neutral-600 mb-6">Мы разбираем ваш бизнес: что уже работает, что мешает расти и как дизайн может это изменить.</p>
-                <p className="text-2xl font-display font-bold">Бесплатно</p>
+
               </div>
             </Reveal>
           </div>
